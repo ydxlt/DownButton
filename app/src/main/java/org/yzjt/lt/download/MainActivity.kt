@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity(), ProgressButton.OnProgressChangeListene
         setContentView(R.layout.activity_main)
         mProgressButton = findViewById(R.id.progress_button)
         mProgressButton!!.setTotalSize(98 * 1024 * 1024)
-            .setOnProgressChangeListener(this).setOnDownloadClickListener(this)
+            .setOnProgressChangeListener(this)
+            .setOnDownloadClickListener(this)
     }
 }
