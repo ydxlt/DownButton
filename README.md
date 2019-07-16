@@ -1,4 +1,6 @@
-1,project build.gradle 
+[![](https://jitpack.io/v/ydxlt/DownButton.svg)](https://jitpack.io/#ydxlt/DownButton)
+
+Step1: Add the JitPack repository to your project build.gradle 
 
 
 	allprojects {
@@ -7,6 +9,6 @@
 	    }
 	}
 
-2,app build.gradle
+Step2:Add the dependency to your app build.gradle
 
 	 implementation 'com.github.ydxlt:DownButton:v1.0.0'
