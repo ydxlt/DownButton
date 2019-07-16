@@ -12,6 +12,10 @@ Step1: Add the JitPack repository to your project build.gradle
 Step2:Add the dependency to your app build.gradle
 
 	 implementation 'com.github.ydxlt:DownButton:v1.0.0'
+	 
+## 演示效果
+
+![https://github.com/ydxlt/DownButton/blob/master/images/Picture.gif](https://github.com/ydxlt/DownButton/blob/master/images/Picture.gif)
 
 
 ## 使用步骤
