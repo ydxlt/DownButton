@@ -8,8 +8,8 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-    <org.yzjt.lt.download.ProgressButton android:layout_width="match_parent" android:layout_height="40dp"
-                                         android:id="@+id/progress_button"
-                                         android:layout_margin="12dp"/>
+    <org.yzjt.library.ProgressButton android:layout_width="match_parent" android:layout_height="40dp"
+                                     android:id="@+id/progress_button"
+                                     android:layout_margin="12dp"/>
 
 </LinearLayout>
