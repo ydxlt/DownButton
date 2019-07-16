@@ -1,2 +1,12 @@
-# DownButton
-一款炫酷清新的下载按钮（附动画效果）
+1,project build.gradle 
+
+
+	allprojects {
+	    repositories {
+	        maven { url 'https://jitpack.io' }
+	    }
+	}
+
+2,app build.gradle
+
+	 implementation 'com.github.ydxlt:DownButton:v1.0.0'
