@@ -6,7 +6,7 @@ import android.os.Handler
 import android.os.Message
 import android.util.Log
 import android.view.View
-
+import org.yzjt.library.ProgressButton
 
 
 class MainActivity : AppCompatActivity(), ProgressButton.OnProgressChangeListener,
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity(), ProgressButton.OnProgressChangeListene
         }
     }
 
-    private var mProgressButton:ProgressButton? = null
+    private var mProgressButton: ProgressButton? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
